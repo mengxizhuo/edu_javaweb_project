@@ -74,6 +74,9 @@ public abstract class BaseController extends HttpServlet {
         if (path.equals("/logout")) {
             return "logout";
         }
+        if (path.equals("/search")) {
+            return "search";
+        }
 
         // 处理带前缀的路径（如 /emps/findAll, /auth/login）
         String[] parts = path.split("/");
@@ -102,6 +105,8 @@ public abstract class BaseController extends HttpServlet {
                     return "logout";
                 case "changePassword":
                     return "changePassword";
+                case "suggest":
+                    return "suggest";
                 default:
                     return methodPath;
             }

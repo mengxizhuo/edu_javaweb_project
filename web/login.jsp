@@ -60,7 +60,7 @@
       </div>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">登 录</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017–2025</p>
 	<a class="btn btn-sm" th:href="#">中文</a>
 	<a class="btn btn-sm" th:href="#">English</a>
   </form>

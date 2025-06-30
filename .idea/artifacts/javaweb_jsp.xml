@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaweb_jsp">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaweb_jsp</output-path>
+    <root id="archive" name="javaweb_jsp.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="edu_javaweb_project" />
+          <element id="library" level="application" name="@popperjs/core" />
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="druid-1.2.8" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="module" name="JUnit4" module-name="edu_javaweb_project" />
+          <element id="library" level="module" name="JUnit5.8.1" module-name="edu_javaweb_project" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="edu_javaweb_project/web/Web" />
+    </root>
+  </artifact>
+</component>

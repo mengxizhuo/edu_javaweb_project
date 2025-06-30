@@ -22,7 +22,7 @@
 <div class="container-fluid">
   <div class="row">
     <!-- Sidebar -->
-    <jsp:include page="commons/siderbar.jsp"></jsp:include>
+    <jsp:include page="commons/sidebar.jsp"></jsp:include>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <h2>查询所有员工信息</h2>

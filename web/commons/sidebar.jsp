@@ -17,6 +17,12 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/search">
+                    <span data-feather="search"></span>
+                    全局搜索
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="${pageContext.request.contextPath}/emps/findAll">
                     <span data-feather="users"></span>
                     员工管理
