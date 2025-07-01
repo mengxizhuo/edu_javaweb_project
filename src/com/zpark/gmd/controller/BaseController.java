@@ -64,7 +64,7 @@ public abstract class BaseController extends HttpServlet {
     
     /**
      * 解析方法名
-     * 例如：/emps/findAll -> findAll, /emps/addEmp -> add, /login -> login
+     * /emps/findAll -> findAll, /emps/addEmp -> add, /login -> login
      */
     protected String parseMethodName(String path) {
         // 处理直接路径映射（如 /login, /logout）
